@@ -1,0 +1,12 @@
+Show All Databases = show dbs
+Create new database = use DATABASE_NAME
+Drop database = db.dropDatabase()
+Create collection = db.createCollection(name)
+
+To check collections list = Show collections
+Drop collection = db.COLLECTION_NAME.drop()
+Insert document in collection = db.COLLECTION_NAME.insert(document)
+
+Get collection document = db.COLLECTION_NAME.find()
+Update document = db.COLLECTION_NAME.update(SELECTION_CRITERIA, UPDATED_DATA)
+Delete document = db.COLLECTION_NAME.remove(DELLETION_CRITTERIA)
